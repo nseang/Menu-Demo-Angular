@@ -1,7 +1,15 @@
-<tr class="row">
-  <th><img class="foodImages" [src]="menuItem.imagePath"></th>
-  <td>
-    <h2>{{ menuItem.name }}</h2>
-    <p>{{ menuItem.description }}</p>
-  </td>
-</tr>
+  <div class="container">
+    <div class="row">
+      <div class="col-5">
+        <div *ngIf="imgFound">
+          <img class="foodImages" [src]="menuItem.imagePath">
+        </div>
+      </div>
+      <div class="col-7">
+        <span class="itemName"> {{ menuItem.name }} </span>
+        <p class="description">
+          {{ menuItem.description }}
+        </p>
+      </div>
+    </div>
+  </div>
