@@ -1,15 +1,18 @@
   <div class="container">
     <div class="row">
-      <div class="col-5">
-        <div *ngIf="imgFound">
+  
+      <div *ngIf="imgFound">
+        <div class="col-sm">
           <img class="foodImages" [src]="menuItem.imagePath">
         </div>
       </div>
-      <div class="col-7">
+
+      <div class="col-lg">
         <span class="itemName"> {{ menuItem.name }} </span>
         <p class="description">
           {{ menuItem.description }}
         </p>
       </div>
+
     </div>
   </div>

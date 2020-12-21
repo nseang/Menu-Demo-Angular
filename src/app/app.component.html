@@ -2,11 +2,9 @@
 
 <div class="content" role="main">
 
-  <menu-section [sectionTitle]="menu.section.sectionName"></menu-section>
+  <menu-section [menuSection]="appetizerMenu"></menu-section>
 
-  <div *ngFor="let item of menu.section.menuItems">
-    <menu-item [menuItem]="item"></menu-item>
-  </div>
+  <menu-section [menuSection]="dinnerMenu"></menu-section>
 
 </div>
 
