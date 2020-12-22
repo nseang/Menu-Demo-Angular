@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AppMenuItem } from './menu-item/menu-item.component'
 import { AppMenuSection } from './menu-section/menu-section.component'
+import { AppContactInfo } from './info/contact-info.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     AppMenuItem,
-    AppMenuSection
+    AppMenuSection,
+    AppContactInfo
   ],
   imports: [
     BrowserModule,
