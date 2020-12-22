@@ -4,11 +4,16 @@ export interface Menu {
 
 export interface MenuSection {
   sectionName: string;
+  sectionDescription?: string;
   menuItems: MenuItem[];
 }
 
 export interface MenuItem {
-  name: string;
-  description: string;
+  title: string;
+  subTitle?: string;
+  description?: string;
   imagePath: string;
+  price?: number;
+  priceSM?: number;
+  priceLG?: number;
 }

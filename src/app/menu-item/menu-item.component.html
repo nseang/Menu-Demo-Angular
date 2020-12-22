@@ -1,18 +1,22 @@
-  <div class="container">
-    <div class="row">
+<div class="row">
   
-      <div *ngIf="imgFound">
-        <div class="col-sm">
-          <img class="foodImages" [src]="menuItem.imagePath">
-        </div>
-      </div>
-
-      <div class="col-lg">
-        <span class="itemName"> {{ menuItem.name }} </span>
-        <p class="description">
-          {{ menuItem.description }}
-        </p>
-      </div>
-
+  <div *ngIf="imgFound">
+    <div class="col-sm">
+      <img class="foodImages" [src]="menuItem.imagePath">
     </div>
   </div>
+
+  <div class="col-lg">
+    <div class="itemName">
+      {{ menuItem.title }} 
+      <span *ngIf="menuItem.subTitle" class="item-sub-title"> - {{ menuItem.subTitle }}</span>
+      <span *ngIf="!multiPrice" class="float-right">${{ menuItem.price }}</span>
+    </div>
+    <p class="description">
+      {{ menuItem.description }}
+    </p>
+  </div>
+
+  <!-- TODO display multiple prices for different sizes  -->
+
+</div>
