@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Menu } from './modals/menu.modal';
+import { appMenu} from '../assets/menu-sections/appetizers'
 
 @Component({
   selector: 'app-root',
@@ -8,63 +9,42 @@ import { Menu } from './modals/menu.modal';
 })
 export class AppComponent {
   title = 'menu';
+  appMenu: Menu = appMenu
 
   appetizerMenu: Menu = {
     section: {
       sectionName: 'Appetizer',
       menuItems: [
         {
-          name: 'Beef Stew',
+          title: 'Beef Stew',
           description: 'Carrots, potato, beef stew on white rice',
-          imagePath: 'assets/pics/riceBeefStew.jpg'
+          imagePath: 'assets/pics/riceBeefStew.jpg',
+          price: 0
         },
         {
-          name: 'Curry Fish',
+          title: 'Curry Fish',
           description: 'Carrots, potato, beef broth with Fried Tempura Fish on Rice',
-          imagePath: 'assets/pics/curryFish.jpg'
+          imagePath: 'assets/pics/curryFish.jpg',
+          price: 0,
+          subTitle: 'Subtitle'
         },
         {
-          name: 'Jasmine Rice Special',
+          title: 'Jasmine Rice Special',
           description: 'Jasmine rice with steam meatloaf, grilled pork, fried eggs, shredded pork',
-          imagePath: 'assets/pics/comTham.jpg'
+          imagePath: 'assets/pics/comTham.jpg',
+          price: 0
         },
 
         {
-          name:'testing',
+          title:'testing',
           description: 'testing',
-          imagePath: null
+          imagePath: null,
+          price: 0
         }
       ]
     }
   }
 
-  dinnerMenu: Menu = {
-    section: {
-      sectionName: 'Dinner',
-      menuItems: [
-        {
-          name: 'Beef Stew',
-          description: 'Carrots, potato, beef stew on white rice',
-          imagePath: null
-        },
-        {
-          name: 'Curry Fish',
-          description: 'Carrots, potato, beef broth with Fried Tempura Fish on Rice',
-          imagePath: null
-        },
-        {
-          name: 'Jasmine Rice Special',
-          description: 'Jasmine rice with steam meatloaf, grilled pork, fried eggs, shredded pork',
-          imagePath: null
-        },
-
-        {
-          name:'testing',
-          description: 'testing',
-          imagePath: null
-        }
-      ]
-    }
-  }
+  constructor() {}
 
 }

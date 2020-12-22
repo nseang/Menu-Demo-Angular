@@ -11,12 +11,16 @@ export class AppMenuItem implements OnInit {
   @Input() menuItem: MenuItem;
 
   imgFound: boolean = false;
+  multiPrice: boolean = true;
 
   constructor() {}
 
   ngOnInit() {
     if (this.menuItem.imagePath) {
       this.imgFound = true;
+    }
+    if (this.menuItem.price) {
+      this.multiPrice = false;
     }
   }
 

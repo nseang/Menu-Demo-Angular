@@ -18,8 +18,4 @@ export class AppMenuSection implements OnInit {
     this.menuItems = this.menuSection.section.menuItems;
   }
 
-  consoleLog(data) {
-    console.log(data);
-  }
-
 }
