@@ -1,8 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { CollapseModule } from 'ngx-bootstrap/collapse'
-
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,12 +16,12 @@ import { AppMenuNav } from './nav-menu/nav-menu.component';
     AppMenuItem,
     AppMenuSection,
     AppContactInfo,
-    AppMenuNav
+    AppMenuNav,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CollapseModule.forRoot()
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
