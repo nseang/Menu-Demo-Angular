@@ -9,13 +9,15 @@ import { Menu, MenuItem } from '../modals/menu.modal';
 export class AppMenuSection implements OnInit {
   @Input() menuSection: Menu;
   sectionTitle: string;
-  menuItems: MenuItem[];
+  sectionSubtitle: string;
+  menuItems: MenuItem[]; 
 
   constructor() {}
 
   ngOnInit() {
     this.sectionTitle = this.menuSection.section.sectionName;
     this.menuItems = this.menuSection.section.menuItems;
+    this.sectionSubtitle = this.menuSection.section.sectionDescription;
   }
 
 }

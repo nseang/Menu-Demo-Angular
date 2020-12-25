@@ -7,13 +7,23 @@
 
 .itemName{
   display: block;
-    font-size: 2em;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-    border-bottom: 2px solid black;
+  font-size: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+.price {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 10px;
+  font-weight: bold;
 }
 
 .row:hover {

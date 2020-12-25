@@ -10,13 +10,14 @@
     <div class="itemName">
       {{ menuItem.title }} 
       <span *ngIf="menuItem.subTitle" class="item-sub-title"> - {{ menuItem.subTitle }}</span>
-      <span *ngIf="!multiPrice" class="float-right">${{ menuItem.price }}</span>
     </div>
+    
     <p class="description">
       {{ menuItem.description }}
     </p>
+    <span *ngIf="!multiPrice" class="price float-right">${{ menuItem.price }}</span>
+    <span *ngIf="multiPrice" class="price float-right">Large ${{ menuItem.priceLG }} </span>
+    <span *ngIf="multiPrice" class="price float-right">Small ${{ menuItem.priceSM }} </span>
   </div>
-
-  <!-- TODO display multiple prices for different sizes  -->
 
 </div>
