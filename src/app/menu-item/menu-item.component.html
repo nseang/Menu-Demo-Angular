@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row item-container">
   
   <div *ngIf="imgFound">
     <div class="col-sm">
@@ -16,8 +16,8 @@
       {{ menuItem.description }}
     </p>
     <span *ngIf="!multiPrice" class="price float-right">${{ menuItem.price }}</span>
-    <span *ngIf="multiPrice" class="price float-right">Large ${{ menuItem.priceLG }} </span>
-    <span *ngIf="multiPrice" class="price float-right">Small ${{ menuItem.priceSM }} </span>
+    <span *ngIf="multiPrice" class="price float-right">LG ${{ menuItem.priceLG }} </span>
+    <span *ngIf="multiPrice" class="price float-right">SM ${{ menuItem.priceSM }} </span>
   </div>
 
 </div>

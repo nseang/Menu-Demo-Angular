@@ -7,18 +7,18 @@
 
 .itemName{
   display: block;
-  font-size: 2em;
+  font-size: 1.2em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #d1d1d1;
 }
 
 .price {
   display: block;
-  font-size: 2em;
+  font-size: 1.1em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   margin-left: 0;
@@ -28,7 +28,7 @@
 
 .row:hover {
   text-shadow: 1px 1px 2px #427388; 
-  background-color: #aab1aa;
+  background-color: #bbc2bb;
 }
 
 .info{
@@ -36,22 +36,13 @@
 }
 
 .description {
-  font-size: 24px;
+  font-size: 1em;
 }
 
 .item-sub-title {
   color: #ff8c00
 }
 
-
-@media only screen and (max-width: 1000px) {
-  #wrapper{
-      width: auto;
-      margin-right: auto;
-      margin-left: auto;
-  }
-
-  .foodImages{
-      width: auto;
-  }
+.item-container {
+  border-radius: 30px;
 }
