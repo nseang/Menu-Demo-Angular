@@ -10,14 +10,16 @@
     <div class="itemName">
       {{ menuItem.title }} 
       <span *ngIf="menuItem.subTitle" class="item-sub-title"> - {{ menuItem.subTitle }}</span>
+      <span *ngIf="!multiPrice" class="price float-right">${{ menuItem.price }}</span>
+      <span *ngIf="multiPrice" class="price float-right">LG ${{ menuItem.priceLG }} </span>
+      <span *ngIf="multiPrice" class="price float-right">SM ${{ menuItem.priceSM }} </span>
     </div>
     
     <p class="description">
       {{ menuItem.description }}
     </p>
-    <span *ngIf="!multiPrice" class="price float-right">${{ menuItem.price }}</span>
-    <span *ngIf="multiPrice" class="price float-right">LG ${{ menuItem.priceLG }} </span>
-    <span *ngIf="multiPrice" class="price float-right">SM ${{ menuItem.priceSM }} </span>
+    
+    
   </div>
 
 </div>
