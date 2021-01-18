@@ -11,8 +11,8 @@ export let soupMenu: Menu = {
         'description': null,
         'imagePath': null,
         'price': null,
-        'priceSM': 3,
-        'priceLG': 5
+        'priceSM': 0.00,
+        'priceLG': 0.00
       },
       {
         'title': 'Egg Drop Wonton Soup',
@@ -20,8 +20,8 @@ export let soupMenu: Menu = {
         'description': null,
         'imagePath': null,
         'price': null,
-        'priceSM': 4,
-        'priceLG': 6
+        'priceSM': 0.00,
+        'priceLG': 0.00
       },
       {
         'title': 'Hot & Sour Soup',
@@ -29,8 +29,8 @@ export let soupMenu: Menu = {
         'description': null,
         'imagePath': null,
         'price': null,
-        'priceSM': 4,
-        'priceLG': 6
+        'priceSM': 0.00,
+        'priceLG': 0.00
       },
       {
         'title': 'Hot & Sour Wonton Soup',
@@ -38,8 +38,8 @@ export let soupMenu: Menu = {
         'description': null,
         'imagePath': null,
         'price': null,
-        'priceSM': 5,
-        'priceLG': 7
+        'priceSM': 0.00,
+        'priceLG': 0.00
       },
       {
         'title': 'Chicken & Noodle Soup',
@@ -47,8 +47,8 @@ export let soupMenu: Menu = {
         'description': null,
         'imagePath': null,
         'price': null,
-        'priceSM': 4,
-        'priceLG': 6
+        'priceSM': 0.00,
+        'priceLG': 0.00
       },
       {
         'title': 'Chicken & Rice Soup',
@@ -56,8 +56,8 @@ export let soupMenu: Menu = {
         'description': null,
         'imagePath': null,
         'price': null,
-        'priceSM': 4,
-        'priceLG': 6
+        'priceSM': 0.00,
+        'priceLG': 0.00
       },
       {
         'title': 'Wonton Soup',
@@ -65,8 +65,8 @@ export let soupMenu: Menu = {
         'description': null,
         'imagePath': null,
         'price': null,
-        'priceSM': 4,
-        'priceLG': 6
+        'priceSM': 0.00,
+        'priceLG': 0.00
       },
       {
         'title': 'House Special Soup',
@@ -75,7 +75,7 @@ export let soupMenu: Menu = {
         'beef, shrimp, vegetables, and wontons. /n/' +
         'Add rice or noodles = $1',
         'imagePath': null,
-        'price': 8,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -86,8 +86,8 @@ export let soupMenu: Menu = {
         'Vegetarian options available upon request',
         'imagePath': null,
         'price': null,
-        'priceSM': 4,
-        'priceLG': 6
+        'priceSM': 0.00,
+        'priceLG': 0.00
       }
     ]
   }

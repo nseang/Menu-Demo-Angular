@@ -16,8 +16,8 @@ export let skinnySteamersMenu: Menu = {
         'description': '279Cal - 6.2g Fat - 0g Carb - 42.7g Protein',
         'imagePath': null,
         'price': null,
-        'priceSM': 9,
-        'priceLG': 12
+        'priceSM': 0.00,
+        'priceLG': 0.00
       },
       {
         'title': 'Flank Steak and Vegetable Steamer',
@@ -25,8 +25,8 @@ export let skinnySteamersMenu: Menu = {
         'description': '330Cal - 14.1g Fat - 0g Carb - 42.7g Protein',
         'imagePath': null,
         'price': null,
-        'priceSM': 11,
-        'priceLG': 14
+        'priceSM': 0.00,
+        'priceLG': 0.00
       },
       {
         'title': 'Shrimp and Vegetable Steamer',
@@ -34,8 +34,8 @@ export let skinnySteamersMenu: Menu = {
         'description': '303Cal - 4.2g Fat - 0g Carb - 58.2g Protein',
         'imagePath': null,
         'price': null,
-        'priceSM': 10,
-        'priceLG': 13
+        'priceSM': 0.00,
+        'priceLG': 0.00
       },
       {
         'title': 'Tofu and Vegetable Steamer',
@@ -43,8 +43,8 @@ export let skinnySteamersMenu: Menu = {
         'description': '88Cal - 5.3g Fat - 2.1g Carb - 10.3g Protein',
         'imagePath': null,
         'price': null,
-        'priceSM': 9,
-        'priceLG': 12
+        'priceSM': 0.00,
+        'priceLG': 0.00
       },
       {
         'title': 'Vegetable Steamer',
@@ -52,8 +52,8 @@ export let skinnySteamersMenu: Menu = {
         'description': '125Cal - 0g Fat - 30g Carb - 10g Protein',
         'imagePath': null,
         'price': null,
-        'priceSM': 9,
-        'priceLG': 12
+        'priceSM': 0.00,
+        'priceLG': 0.00
       },
       {
         'title': 'House Steamer',
@@ -61,8 +61,8 @@ export let skinnySteamersMenu: Menu = {
         'description': 'Choose 3 options above to complete this combination entree. (duplicates allowed) Tofu add $2',
         'imagePath': null,
         'price': null,
-        'priceSM': 12,
-        'priceLG': 15
+        'priceSM': 0.00,
+        'priceLG': 0.00
       },
       
     ]

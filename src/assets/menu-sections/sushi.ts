@@ -11,7 +11,7 @@ export let sushiMenu: Menu = {
         'subTitle': null,
         'description': 'Crab meat, advocado, and cucumber rolled in fish',
         'imagePath': null,
-        'price': 6,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -20,7 +20,7 @@ export let sushiMenu: Menu = {
         'subTitle': null,
         'description': "Crab meat only.",
         'imagePath': null,
-        'price': 6,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -29,7 +29,7 @@ export let sushiMenu: Menu = {
         'subTitle': null,
         'description': 'Deep fried Philadelphia Roll.',
         'imagePath': null,
-        'price': 8,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -38,7 +38,7 @@ export let sushiMenu: Menu = {
         'subTitle': null,
         'description': 'Crab, shrimp, cucumber, avocado, carrot, and wasabi.',
         'imagePath': null,
-        'price': 7,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -47,7 +47,7 @@ export let sushiMenu: Menu = {
         'subTitle': null,
         'description': 'Steamed shrimp, avocado, cucumber, and carrot.',
         'imagePath': null,
-        'price': 6,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -56,7 +56,7 @@ export let sushiMenu: Menu = {
         'subTitle': null,
         'description': 'Cream cheese, crab, avocado, cucumber, and carrot',
         'imagePath': null,
-        'price': 6,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -65,7 +65,7 @@ export let sushiMenu: Menu = {
         'subTitle': null,
         'description': 'Deep fried shrimp, avocado, cucumber, and carrot',
         'imagePath': null,
-        'price': 8,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -74,7 +74,7 @@ export let sushiMenu: Menu = {
         'subTitle': null,
         'description': 'Avocado, cucumber, lettuce, and carrot',
         'imagePath': null,
-        'price': 6,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       }
