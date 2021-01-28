@@ -9,7 +9,7 @@ export let appMenu: Menu = {
         'subTitle': 'Chicken (1)',
         'description': null,
         'imagePath': null,
-        'price': 2,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -18,7 +18,7 @@ export let appMenu: Menu = {
         'subTitle': 'Seafood (1)',
         'description': null,
         'imagePath': null,
-        'price': 3,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -27,7 +27,7 @@ export let appMenu: Menu = {
         'subTitle': 'Shrimp (1)',
         'description': null,
         'imagePath': null,
-        'price': 2.5,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -36,7 +36,7 @@ export let appMenu: Menu = {
         'subTitle': 'Vegetable (1)',
         'description': null,
         'imagePath': null,
-        'price': 2.5,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -45,7 +45,7 @@ export let appMenu: Menu = {
         'subTitle': null,
         'description': null,
         'imagePath': null,
-        'price': 6,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -54,7 +54,7 @@ export let appMenu: Menu = {
         'subTitle': null,
         'description': null,
         'imagePath': null,
-        'price': 6,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -63,7 +63,7 @@ export let appMenu: Menu = {
         'subTitle': 'Marinated (8)',
         'description': null,
         'imagePath': null,
-        'price': 7,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -72,7 +72,7 @@ export let appMenu: Menu = {
         'subTitle': 'Flavored (8)',
         'description': ' Honey - Lemon Pepper - Teriyaki - Spicy',
         'imagePath': null,
-        'price': 8,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -81,7 +81,7 @@ export let appMenu: Menu = {
         'subTitle': 'Teriyaki (4)',
         'description': null,
         'imagePath': null,
-        'price': 6,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -90,7 +90,7 @@ export let appMenu: Menu = {
         'subTitle': 'Pan Fried (6)',
         'description': null,
         'imagePath': null,
-        'price': 7,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       },
@@ -99,7 +99,7 @@ export let appMenu: Menu = {
         'subTitle': 'Steamed (6)',
         'description': 'Dumpings available in chicken/pork or Shrimp',
         'imagePath': null,
-        'price': 6,
+        'price': 0.00,
         'priceSM': null,
         'priceLG': null
       }

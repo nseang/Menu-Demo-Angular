@@ -10,10 +10,10 @@ import { Contact } from "../modals/contact-info";
 export class AppContactInfo {
   contactInfo: Contact = {
     title: 'Contact Us',
-    address: '1922 Augusta St #115',
-    address2: 'Greenville SC 29605',
-    phone: '864-282-8892',
-    hours: 'MON-THU: 10:30AM-9:30PM, FRI-SAT: 10:30AM-10:00PM'
+    address: '1030 Old Peachtree Rd NW',
+    address2: 'Lawrenceville, GA 30043',
+    phone: '678-221-4404',
+    hours: 'Everyday 8am - 12am'
   }
 
 }
